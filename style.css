@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 10px;
+}
+.full-page{
+    height: 100%;
+    width: 100%;
+}
+.bg-section{
+    width: 100%;
+    height: 85rem;
+    background-color: #f0f2f3;
+}
+.logo{
+    width: 30rem;
+    display: block;
+    margin: auto;
+    min-width: 12rem;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.account-section{
+    height: 62rem;
+    width: 43.5rem;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 10px 10px -7px #0000001a , -10px -10px 10px -7px #0000001a;
+    border-radius: 4px;
+}
+.tagline{
+    padding-top: 1.1rem;
+}
+
+.tagline h1{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.tagline p{
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+.tagline::after{
+    content: '';
+    height: 0.5px;
+    background-color: #000;
+    width: 43.2rem;
+    position: absolute;
+    opacity: 0.8;
+    top: 18.5rem;
+}
+
+/*-------form-section------*/
+
+.form-section{
+    padding: 2.5rem 1.5rem;
+}
+.name-sec{
+    display: flex;
+}
+.f-nam{
+    width: 19.4rem;
+    border: 1px solid #cbd0d4;
+    padding: 1rem 0px;
+    margin-right: 1.2rem;
+    border-radius: 4px;
+}
+.l-nam{
+    width: 19.4rem;
+    border: 1px solid #cbd0d4;
+    padding: 1rem 0px;
+    border-radius: 4px;
+}
+.f-nam input[type=text] , .l-nam input[type=text]{
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+::placeholder{
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+
+.birth-date{
+    margin: 1.5rem 0px 1rem 0px;
+}
+.birth-date p{
+    font-size: 1.2rem;
+    color: #5f6770;
+}
+.date-month-year{
+    display: flex;
+    gap: 20px;
+}
+option{
+    font-size: 1.5rem;
+}
+
+
+#date{
+    width: 12.5rem;
+    height: 3.7rem;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #cbd0d4;
+    font-size: 1.5rem;
+}
+#month{
+    width: 12.5rem;
+    height: 3.7rem;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #cbd0d4;
+    font-size: 1.5rem;
+}
+#year{
+    width: 12.5rem;
+    height: 3.7rem;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #cbd0d4;
+    font-size: 1.5rem;
+}
+
+.gender-selection p{
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #5f6770;
+}
+
+.gender-type{
+    display: flex;
+    margin: .7rem 0px;
+    gap: 3px;
+}
+label{
+    font-size: 1.5rem;
+    padding-right: 4rem;
+}
+#female,#male,#custom{
+    padding-right: 1rem;
+    height: 1.2rem;
+}
+.f-m{
+    border: 1px solid #cbd0d4;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-right: 1.5rem;
+}
+.M{
+    border: 1px solid #cbd0d4;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-right: 1.5rem;
+}
+.costum{
+    border: 1px solid #cbd0d4;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+
+.select-pronoun{
+    margin-top: 1rem;
+}
+#custom-pronoun{
+    width: 100%;
+    height: 3.7rem;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #cbd0d4;
+    padding: 0px .5rem;
+    margin: .5rem 0px 1em 0px;
+    font-size: 1.5rem;
+}
+.custom-section p{
+    font-size: 1.2rem;
+    color: #5f6770;
+}
+.optinol input{
+       width: 100%;
+    height: 3.7rem;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #cbd0d4;
+    padding: 0px .5rem;
+    margin: .5rem 0px 1em 0px;
+    font-size: 1.5rem;
+
+}
+
+
+
+.mobile{
+    border: 1px solid #cbd0d4;
+    width: 100%;
+    border-radius: 4px;
+    padding: 1rem 0px;
+    margin: 1rem 0px;
+}
+.password{
+    border: 1px solid #cbd0d4;
+    width: 100%;
+    border-radius: 4px;
+    padding: 1rem 0px;
+    margin: 1rem 0px;
+}
+
+.mobile input[type=text] , .password input[type=password]{
+     border: none;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+.discrip p{
+    font-size: 1.1rem;
+    color: #5f6770;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+span{
+    color: rgb(33, 86, 244);
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s;
+}
+span:hover{
+    border-bottom: 1px solid rgb(33, 86, 244);
+}
+.button{
+    display: block;
+    margin: 2rem 11rem;
+}
+.btn{
+    background-color: #00a41f;
+    color: #fff;
+    border: 1px solid #39cd82;
+    font-weight: 600;
+    font-size: 1.7rem;
+    height: 3.8rem;
+    width: 18rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.button p{
+    font-size: 1.6rem;
+    line-height: 6rem;
+    color: rgb(33, 86, 244);
+    cursor: pointer;
+}

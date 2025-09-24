@@ -1,5 +1,6 @@
 
 function submitform() {
+    event.preventDefault()
     const firstname = document.getElementById(firstName).value
     const lastname = document.getElementById(lastName).value
     const email =document.getElementById(Email).value
